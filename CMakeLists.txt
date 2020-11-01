@@ -73,7 +73,6 @@ else()
 endif()
 
 add_subdirectory(PositionBasedDynamics)
-add_subdirectory(Simulation)
 add_subdirectory(Utils)
 if (NOT PBD_NO_DEMOS)
 	if (WIN32)
